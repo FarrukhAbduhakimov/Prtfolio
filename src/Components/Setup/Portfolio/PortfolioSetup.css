@@ -1,0 +1,78 @@
+.setup-container{
+    padding-left: 20%;
+    padding-top: 3%;
+}
+.setup-dell{
+    display: flex;
+}
+.setup-dell .setup-photo img{
+    border-radius: 8px;
+    width: 550px;
+}
+.setup-dell .dell-about{
+    width: 15%;
+    margin-left: 5%;
+    color: aliceblue;
+    margin-top: 5%;
+    
+}
+.setup-dell .dell-about p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.setup-dell .dell-about ol li{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.setup-dell .dell-about ol{
+    margin-top: 10%;
+}
+@media screen and (max-width:1110px){   
+    .setup-dell .setup-photo img{
+        border-radius: 10px;
+        width: 450px;
+    }
+    .setup-dell .dell-about p{
+        font-size: 20px;
+    }
+    .setup-dell .dell-about ol li{
+        font-size: 16px;
+    }
+    .setup-dell .dell-about{
+        width: 20%;
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width:910px){   
+    .setup-dell .setup-photo img{
+        border-radius: 10px;
+        width: 375px;
+    }
+    .setup-dell .dell-about p{
+        font-size: 20px;
+    }
+    .setup-dell .dell-about ol li{
+        font-size: 14px;
+    }
+    .setup-dell .dell-about{
+        width: 30%;
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width:px){   
+    .setup-dell .setup-photo img{
+        border-radius: 10px;
+        width: 375px;
+    }
+    .setup-dell .dell-about p{
+        font-size: 20px;
+    }
+    .setup-dell .dell-about ol li{
+        font-size: 14px;
+    }
+    .setup-dell .dell-about{
+        width: 30%;
+        margin-top: 8%;
+    }
+}

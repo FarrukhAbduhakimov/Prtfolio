@@ -1,0 +1,7 @@
+.portfolio-about-mee{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 800px;
+    background: url("../../assets//fonts/bg.jpg");
+}
